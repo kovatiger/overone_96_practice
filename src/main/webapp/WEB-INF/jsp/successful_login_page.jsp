@@ -5,6 +5,8 @@
     <title>Successful Login</title>
 </head>
 <body>
-<p5>SUCCESSFUL LOGIN</p5>
+<p1>Your firstname ${firstname}</p1> <br>
+<p1>Your lastname ${lastname}</p1> <br>
+<p1>Your email ${email}</p1> <br>
 </body>
 </html>

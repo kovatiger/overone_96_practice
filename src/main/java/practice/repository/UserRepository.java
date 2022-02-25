@@ -7,4 +7,5 @@ import practice.entity.User;
 @Repository
 public interface UserRepository extends JpaRepository<User,String> {
      User findUserByEmail(String email);
+     User findUserById(String id);
 }
