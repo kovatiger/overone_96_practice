@@ -9,7 +9,7 @@ import practice.repository.UserRepository;
 public class UserService {
 
     @Autowired
-    UserRepository userRepository;
+    private UserRepository userRepository;
 
     public User getUserByEmail(String email) {
         return userRepository.findUserByEmail(email);

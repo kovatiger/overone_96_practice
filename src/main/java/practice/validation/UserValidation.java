@@ -9,7 +9,7 @@ import practice.service.UserService;
 public class UserValidation {
 
     @Autowired
-    UserService userService;
+    private UserService userService;
 
     public String checkDataForRegistration(String firstName, String lastName, String email, String password, String repassword) {
         if (firstName.isEmpty() || lastName.isEmpty() || email.isEmpty() || password.isEmpty() || repassword.isEmpty()) {
